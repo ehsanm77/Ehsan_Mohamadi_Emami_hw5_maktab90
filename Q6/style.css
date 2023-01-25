@@ -1,0 +1,100 @@
+@import url(/font.css);
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Playfair";
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.772);
+}
+.container {
+  position: relative;
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  background: url(/img/pic.jpg);
+  background-size: cover;
+}
+.login-box {
+  background: linear-gradient(#757af4, #954ded);
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.hill-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.icon {
+  width: 15px;
+}
+.input-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 10px;
+  width: 230px;
+  padding-bottom: 10px;
+  gap: 5px;
+}
+.input {
+  background-color: rgba(0, 0, 255, 0);
+  outline: none;
+  border: none;
+  font-size: 14px;
+  color: rgb(60, 56, 56);
+}
+.input-user-pass {
+  border-bottom: 1.2px solid rgba(231, 210, 210, 0.5);
+  margin-bottom: 10px;
+}
+::placeholder {
+  color: white;
+  font-family: "Playfair";
+  font-size: 13px;
+}
+.forget-password {
+  margin-top: auto;
+  font-size: 12px;
+  cursor: pointer;
+}
+.btn {
+  padding: 10px;
+  width: 80px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-family: "Playfair";
+  font-weight: bold;
+  color: #62647b;
+}
