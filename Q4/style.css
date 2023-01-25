@@ -1,0 +1,36 @@
+.container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color:rgb(255, 129, 129);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    font-weight: bold;
+    border-radius: 40px 80px;
+    box-shadow: 0 0 5px 1px rgb(143, 143, 255);
+}
+.btn{
+    align-self:center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:rgb(120, 197, 171);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+input{
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    
+}
+.msg-notification{
+    position: absolute;
+}
